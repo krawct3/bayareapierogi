@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bay Area Pierogi — Coming Soon</title>
+  <meta name="description" content="Handmade Polish pierogi, coming soon to the San Francisco Bay Area.">
+  <meta property="og:title" content="Bay Area Pierogi — Coming Soon">
+  <meta property="og:description" content="The best pierogi in the Bay Area. Handmade from a family recipe born in Kraków.">
+  <meta property="og:url" content="https://bayareapierogi.com/">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🥟</text></svg>">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;1,9..144,400&family=Inter:wght@400;500&display=swap');
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --ink:      #4A1C2E;
+      --ink-soft: #6B3A4B;
+      --accent:   #B8432F;
+      --ivory:    #FBF6EE;
+      --cream:    #F4E9DA;
+      --text:     #2B2622;
+      --text-mid: #6A6058;
+      --border:   #E6DBCB;
+    }
+
+    html, body { height: 100%; }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      color: var(--text);
+      background: var(--ivory);
+      background-image: radial-gradient(circle at 20% 10%, var(--cream) 0, transparent 45%),
+                        radial-gradient(circle at 85% 90%, var(--cream) 0, transparent 40%);
+      line-height: 1.6;
+      display: flex;
+      flex-direction: column;
+      min-height: 100%;
+      padding: 32px 16px;
+    }
+
+    main {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .card {
+      max-width: 560px;
+      width: 100%;
+      text-align: center;
+      padding: clamp(32px, 6vw, 56px) clamp(20px, 5vw, 48px);
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      box-shadow: 0 8px 32px rgba(74, 28, 46, 0.08);
+    }
+
+    .mark { font-size: clamp(48px, 10vw, 72px); line-height: 1; margin-bottom: 16px; }
+
+    .kicker {
+      font-family: 'Fraunces', Georgia, serif;
+      font-style: italic;
+      color: var(--accent);
+      font-size: clamp(16px, 2.5vw, 19px);
+      letter-spacing: 0.3px;
+      display: block;
+      margin-bottom: 8px;
+    }
+
+    h1 {
+      font-family: 'Fraunces', Georgia, serif;
+      font-weight: 600;
+      color: var(--ink);
+      font-size: clamp(34px, 7vw, 52px);
+      line-height: 1.1;
+      letter-spacing: -0.5px;
+      margin-bottom: 18px;
+    }
+
+    .lead {
+      font-size: clamp(16px, 2.4vw, 18px);
+      color: var(--text-mid);
+      max-width: 40ch;
+      margin: 0 auto 28px;
+    }
+
+    .contact {
+      display: inline-block;
+      color: var(--ink);
+      font-weight: 500;
+      font-size: 15px;
+      text-decoration: none;
+      border-bottom: 2px solid var(--accent);
+      padding-bottom: 2px;
+      transition: color 0.15s, border-color 0.15s;
+    }
+    .contact:hover { color: var(--accent); }
+
+    footer {
+      text-align: center;
+      font-size: 13px;
+      color: var(--text-mid);
+      padding-top: 24px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="card">
+      <div class="mark" aria-hidden="true">🥟</div>
+      <span class="kicker">coming soon</span>
+      <h1>Bay Area Pierogi</h1>
+      <p class="lead">The best pierogi in the Bay Area. Handmade from a family recipe born in Kraków.</p>
+      <a class="contact" href="mailto:hello@bayareapierogi.com">hello@bayareapierogi.com</a>
+    </div>
+  </main>
+  <footer>© 2026 Bay Area Pierogi · ZK Bay Foods LLC</footer>
+</body>
+</html>
